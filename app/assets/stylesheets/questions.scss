@@ -1,0 +1,31 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// Defining a variable
+@import url("components/cards.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/navbar.css");
+@import url("components/notifications.css");
+@import url("components/tabs.css");
+@import url("components/card.css");
+
+
+ $gray: #888888;
+
+ body {
+   background: $gray; // Using this variable
+ }
+
+  .banner {
+   background: red;
+   h1 {
+     font-size: 50px;
+   }
+ }
+a {
+   color: grey;
+   &:hover {
+     color: black;
+   }
+ }
